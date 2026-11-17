@@ -1,0 +1,160 @@
+:root {
+    --yellow: #F6F7C1;
+    --green: #BEF0CB;
+    --mint: #D1FFF3;
+    --purple: #C1AEFC;
+    --dark: #29283A;
+    --gray: #777789;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--dark);
+    background-color: #FCFCFA;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 22px 0;
+    background: rgba(252, 252, 250, 0.95);
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.navbar-brand span {
+    color: #9B80E9;
+}
+
+.nav-link {
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #9B80E9;
+}
+
+.btn-contact {
+    background: var(--purple);
+    color: var(--dark);
+    padding: 11px 23px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.btn-contact:hover {
+    background: var(--dark);
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 110px 0 120px;
+    overflow: hidden;
+}
+
+
+.hero-span{
+    display: inline-block;
+    color: var(--dark);
+    background: var(--green);
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(45px, 6vw, 76px);
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.hero h1 span{
+    color: #9B80E9;
+}
+
+
+.hero-description{
+    color: var(--gray);
+    font-size: 17px;
+    line-height: 1.9;
+    max-width: 520px;
+    margin: 25px 0 35px;
+}
+
+.btn-primary-custom {
+    display: inline-block;
+    background: var(--dark);
+    color: white;
+    padding: 15px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-primary-custom:hover {
+    background: #9B80E9;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-secondary-custom {
+    display: inline-block;
+    padding: 15px 25px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+
+.hero-image {
+    width: 360px;
+    height: 360px;
+    background: var(--yellow);
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-photo {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 31%;
+}
