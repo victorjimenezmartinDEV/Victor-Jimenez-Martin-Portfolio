@@ -1,33 +1,20 @@
-
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Víctor Jiménez | Portfolio</title>
-
+    <title>Portfolio Victor Jimenez Martin</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <!-- NAVBAR -->
-
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-
             <a class="navbar-brand" href="#">
-                victor<span>.</span>
+                Víctor Jiménez Martín<span>.</span>
             </a>
 
             <button class="navbar-toggler" type="button"
@@ -65,24 +52,17 @@
         </div>
     </nav>
 
-
     <!-- HERO -->
-
-    <header class="hero">
-
+     <header class="hero">
         <div class="container">
-
             <div class="row align-items-center">
-
                 <div class="col-lg-7">
+                    <span class="hero-span">Desarrollador de Software</span>
 
-                    <span class="hero-label">
-                        ✦ Desarrollador de software
-                    </span>
-
-                    <h1>
-                        Hola, soy Víctor.<br>
-                        Construyo cosas<br>
+                    <h1 class="h1-hero">
+                        Hola soy Víctor, <br>
+                        transformo ideas en <br>
+                        experiencias<br>
                         <span>para la web.</span>
                     </h1>
 
@@ -100,31 +80,19 @@
                     <a href="#about" class="btn-secondary-custom">
                         Conóceme
                     </a>
-
                 </div>
 
                 <div class="col-lg-5">
-
                     <div class="hero-image">
-
-                        <span class="hero-initials">VJ</span>
-
-                        <div class="hero-decoration">
-                            Developer ✦
-                        </div>
-
+                    <img class="hero-photo" src="./Media/photo_cv.jpeg" alt="Víctor Jiménez">
                     </div>
-
                 </div>
-
             </div>
-
+            
         </div>
+     </header>
 
-    </header>
-
-
-    <!-- ABOUT -->
+     <!-- ABOUT -->
 
     <section class="about" id="about">
 
@@ -132,9 +100,9 @@
 
             <div class="row align-items-center g-4">
 
-                <div class="col-lg-5">
+                <div class="col-lg-5 pe-lg-5">
 
-                    <p class="section-label">01 / Sobre mí</p>
+                    <p class="section-label">Sobre mí</p>
 
                     <h2 class="section-title">
                         Un poco sobre quién soy.
@@ -143,15 +111,14 @@
                     <p class="section-description">
                         Soy Técnico Superior en Desarrollo de Aplicaciones
                         Web. Cuento con experiencia en desarrollo de
-                        software, mantenimiento de aplicaciones y
-                        administración de entornos tecnológicos.
+                        software Full Stack.
 
                         <br><br>
 
-                        Me interesa especialmente el desarrollo backend,
-                        los sistemas ERP y las tecnologías DevOps.
+                        Me interesa el desarrollo Front-End & Back-End,
+                        los sistemas ERP/CRM y las tecnologías DevOps.
                         Siempre estoy buscando aprender algo nuevo
-                        y mejorar la forma en la que construyo software.
+                        y mejorar la forma y metodología en la que construyo software.
                     </p>
 
                 </div>
@@ -164,9 +131,7 @@
 
                             <div class="about-card">
 
-                                <div class="about-number">01.</div>
-
-                                <h3>Desarrollo web</h3>
+                                <h3>&lt;/&gt; Desarrollo web</h3>
 
                                 <p>
                                     Desarrollo de aplicaciones web,
@@ -182,9 +147,7 @@
 
                             <div class="about-card">
 
-                                <div class="about-number">02.</div>
-
-                                <h3>DevOps</h3>
+                                <h3><span class="fs-2">⎈</span> DevOps</h3>
 
                                 <p>
                                     Contenedores, despliegues,
@@ -206,7 +169,6 @@
 
     </section>
 
-
     <!-- SKILLS -->
 
     <section id="skills">
@@ -215,7 +177,7 @@
 
             <div class="text-center mb-5">
 
-                <p class="section-label">02 / Tecnologías</p>
+                <p class="section-label">Tecnologías</p>
 
                 <h2 class="section-title">
                     Herramientas que utilizo.
@@ -231,17 +193,21 @@
             <div class="row g-3">
 
                 <div class="col-6 col-md-3"><div class="skill-item">PHP</div></div>
-                <div class="col-6 col-md-3"><div class="skill-item">JavaScript</div></div>
-                <div class="col-6 col-md-3"><div class="skill-item">Python</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Java</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">JavaScript</div></div>
+                 <div class="col-6 col-md-3"><div class="skill-item">Lua</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Laravel</div></div>
-                <div class="col-6 col-md-3"><div class="skill-item">Docker</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">Angular</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">React</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">Vue 3</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Kubernetes</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">Docker</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Helm</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Dolibarr</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">ERPNext</div></div>
                 <div class="col-6 col-md-3"><div class="skill-item">Git / GitHub</div></div>
-                <div class="col-6 col-md-3"><div class="skill-item">Lua</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">REST</div></div>
+                <div class="col-6 col-md-3"><div class="skill-item">JQuery</div></div>
 
             </div>
 
@@ -249,8 +215,7 @@
 
     </section>
 
-
-    <!-- PROJECTS -->
+      <!-- PROJECTS -->
 
     <section class="projects" id="projects">
 
@@ -258,7 +223,7 @@
 
             <div class="mb-5">
 
-                <p class="section-label">03 / Portfolio</p>
+                <p class="section-label">Portfolio</p>
 
                 <h2 class="section-title">
                     Algunos de mis proyectos.
@@ -277,39 +242,8 @@
 
                     <article class="project-card">
 
-                        <div class="project-cover cover-one">
-                            Fundación Atenea
-                        </div>
-
-                        <div class="project-content">
-
-                            <h3>ERP Fundación Atenea</h3>
-
-                            <p>
-                                Sistema ERP personalizado para la gestión
-                                de empleados, proyectos, participantes,
-                                actividades y tareas, con indicadores
-                                y visualización de datos.
-                            </p>
-
-                            <div>
-                                <span class="tech-tag">PHP</span>
-                                <span class="tech-tag">ERP</span>
-                                <span class="tech-tag">SQL</span>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-
-                    <article class="project-card">
-
                         <div class="project-cover cover-two">
-                            Kubernetes
+                            Kubeport
                         </div>
 
                         <div class="project-content">
@@ -335,37 +269,6 @@
 
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-
-                    <article class="project-card">
-
-                        <div class="project-cover cover-three">
-                            Conlipress
-                        </div>
-
-                        <div class="project-content">
-
-                            <h3>Conlipress ERP</h3>
-
-                            <p>
-                                Solución de gestión empresarial orientada
-                                a empresas de control de plagas,
-                                con facturación de servicios y
-                                administración de mantenimientos.
-                            </p>
-
-                            <div>
-                                <span class="tech-tag">ERP</span>
-                                <span class="tech-tag">PHP</span>
-                                <span class="tech-tag">SQL</span>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
             </div>
 
         </div>
@@ -383,7 +286,7 @@
 
                 <div class="col-lg-5">
 
-                    <p class="section-label">04 / Trayectoria</p>
+                    <p class="section-label">Trayectoria</p>
 
                     <h2 class="section-title">
                         Mi experiencia profesional.
@@ -433,7 +336,7 @@
                             Formación especializada en programación,
                             desarrollo web, bases de datos,
                             despliegue de aplicaciones y
-                            tecnologías de desarrollo.
+                            tecnologías de desarrollo junto al ciclo de vida del Software.
                         </p>
 
                     </div>
@@ -455,29 +358,29 @@
 
             <div class="contact-box text-center">
 
-                <p class="section-label">05 / Contacto</p>
+                <p class="section-label">Contacto</p>
 
                 <h2>¿Trabajamos juntos?</h2>
 
                 <p class="section-description mx-auto mb-4">
-                    Estoy abierto a nuevas oportunidades profesionales,
-                    colaboraciones y proyectos interesantes.
-                    ¡Hablemos!
+                   <span class="contact-message">¿Tienes una idea o proyecto en mente? </span>
+                   Me encantaría ayudarte a convertirlo en una solución digital. <br>
+                   <b>¡Hablemos!</b>
                 </p>
 
-                <a href="mailto:tuemail@ejemplo.com"
+                <a href="mailto:victorjimenezmartin05@gmail.com"
                     class="btn-primary-custom">
                     Envíame un correo →
                 </a>
 
                 <div class="mt-4">
 
-                    <a href="https://github.com/tuusuario"
+                    <a href="https://github.com/victorjimenezmartinDEV"
                         target="_blank" class="contact-link">
                         GitHub
                     </a>
 
-                    <a href="https://www.linkedin.com/in/tuusuario"
+                    <a href="https://www.linkedin.com/in/v%C3%ADctor-jim%C3%A9nez-mart%C3%ADn-297b84398/"
                         target="_blank" class="contact-link">
                         LinkedIn
                     </a>
@@ -498,18 +401,15 @@
         <div class="container">
 
             <p class="mb-0">
-                Diseñado y desarrollado con <span>♥</span> por Víctor Jiménez.
-                © 2026
+              >_  Diseñado y desarrollado por Víctor Jiménez Martín.
             </p>
 
         </div>
 
     </footer>
 
-
-    <!-- Bootstrap JS -->
+     <!-- Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
